@@ -1,0 +1,2 @@
+<h3>Disk usage details:</h3>
+<%= stats_to_table(`df -h`.sub!('Mounted on', 'Mounted_on')) %>

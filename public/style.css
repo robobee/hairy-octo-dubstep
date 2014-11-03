@@ -1,0 +1,18 @@
+body {
+    background: #cc9;
+    font-family: sans-serif;
+}
+table {
+    background: #9c6;
+}
+tr:first-child {
+    background: #330;
+    color: #fff;
+    font-weight: 600;
+}
+td {
+    padding: 4px;
+}
+tr:first-child td {
+    padding: 8px 10px 2px 4px;
+}
