@@ -1,2 +1,8 @@
-<h3>Memory usage details:</h3>
+<h3>Current memory usage:</h3>
 <%= get_memory %>
+<form action="/save_memory_data" method="post">
+  <input type="submit" value="Save data">
+</form>
+<form action="/memory/history">
+  <input type="submit" value="Show history">
+</form>

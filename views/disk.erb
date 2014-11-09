@@ -1,2 +1,8 @@
-<h3>Disk usage details:</h3>
-<%= stats_to_table(`df -h`.sub!('Mounted on', 'Mounted_on')) %>
+<h3>Current disk usage:</h3>
+<%= make_table(disk) %>
+<form action="/save_disk_data" method="post">
+  <input type="submit" value="Save data">
+</form>
+<form action="/disk/history">
+  <input type="submit" value="Show history">
+</form>

@@ -16,3 +16,11 @@ td {
 tr:first-child td {
     padding: 8px 10px 2px 4px;
 }
+form {
+    margin: 10px 0 0 0;
+}
+input[type=submit] {
+    padding: 6px;
+    font-weight: 600;
+    font-size: 1em;
+}
